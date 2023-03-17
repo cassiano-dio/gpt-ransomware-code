@@ -4,7 +4,7 @@
 
 Este código contém um exemplo teório de um código de ransomware, que serve para encriptar arquivos em um computador (use com cuidado).
 
-Obs: um ransomware vai muito além do código em si, mas o funcionamento básico é de encriptar arquivos.**rquivos**
+Obs: um ransomware vai muito além do código em si, mas o funcionamento básico é de encriptar arquivos.
 
 * **`encrypt.py`**: encripta um arquivo (neste caso é o arquivo `example.txt` e está definido no código)
 * **`decrypt.py`**: desencripta um arquivo (o mesmo arquivo encriptado `example.txt`. Também está definido no código)
