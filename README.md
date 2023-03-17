@@ -12,7 +12,7 @@ Obs: um ransomware vai muito além do código em si, mas o funcionamento básico
 
 ## Como usar este exemplo
 
-* Instalar o pyton3 na sua máquina
+* Instalar o **pyton3** na sua máquina
 * Instalar as bibliotecas **cryptography** e **fernet** através do comando `pip install fernet` e `pip install cryptography`
 * Executar o comando python ` .\encrypt.py` para encriptar o arquivo, informe a senha de encriptação (que será usada na decriptação). Note que irá criar dois arquivos, o `encryption_key.key` e `salt.bin` que serão necessários para desencriptar o arquivo encriptado, além de gerar um arquivo chamado `example.txt.enc` que é o arquivo `example.txt` encriptado.
 * Para desencriptar, utilize o comando `python .\decrypt.py` e informe a senha criada para encriptar. Repare que o arquivo encriptado será substituído pelo arquivo legível.
